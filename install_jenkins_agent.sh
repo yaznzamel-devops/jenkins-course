@@ -11,6 +11,6 @@ sudo mkdir -p /var/jenkins
 cd /var/jenkins
 
 # Download the Jenkins agent jar
-wget http://<jenkins-master>:8080/jnlpJars/agent.jar
+sudo wget http://<jenkins-master>:8080/jnlpJars/agent.jar
 
 echo "Java installation and Jenkins agent setup completed."

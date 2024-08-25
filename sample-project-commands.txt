@@ -3,3 +3,12 @@ sudo apt install nodejs npm -y
 
 # create a next application 
 npx create-next-app@latest my-next-app
+
+# navigate to the application directory 
+cd my-next-app
+
+# install dependencies 
+npm install
+
+# run the server
+npm run dev

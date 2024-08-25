@@ -1,0 +1,5 @@
+# install node if it does not exist
+sudo apt install nodejs npm -y
+
+# create a next application 
+npx create-next-app@latest my-next-app
